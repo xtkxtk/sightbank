@@ -101,12 +101,3 @@ to = st.text_input('Recipent\'s account')
 much = st.number_input('amount to be remitted')
 if st.button('remmit'):
     sending()
-
-# >>> import plotly.express as px
-# >>> fig = px.box(range(10))
-# >>> fig.write_html('test.html')
-
-HtmlFile = open("test.html", 'r', encoding='utf-8')
-source_code = HtmlFile.read() 
-print(source_code)
-components.html(source_code)
