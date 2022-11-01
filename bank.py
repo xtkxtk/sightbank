@@ -1,7 +1,5 @@
 import json
 import streamlit as st
-
-import streamlit.components.v1 as components
 with open('banklist.json', 'rt', encoding='UTF8') as f:
     data = json.load(f)
 
