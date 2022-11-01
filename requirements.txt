@@ -1,2 +1,2 @@
-
+json
 streamlit==1.13.0
