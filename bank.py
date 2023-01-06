@@ -44,6 +44,7 @@ def sending():
         st.write(data)
     loading()
     print(t_name2)
+    
     if(str(pw)==b_name2.split('-')[1]):
         much=int(much)
 
